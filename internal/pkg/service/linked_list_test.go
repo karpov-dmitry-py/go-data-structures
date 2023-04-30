@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-func LinkedListServiceTest_BasicUsage(t *testing.T) {
+func Test_LinkedListServiceBasicUsage(t *testing.T) {
 
 	t.Run("Success", func(t *testing.T) {
 
